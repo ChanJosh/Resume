@@ -4,12 +4,15 @@
 }
 @media print {
 	html,body {
-		width: 210 mm;
+		width: 210mm;
 		height: 297mm;
 	}
 }
-#contact {
-	color: black;
+body {
 }
-
-
+#contact {
+	
+}
+ul {
+	margin:0;
+}
