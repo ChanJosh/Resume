@@ -1,6 +1,6 @@
 @page {
 	size: A4;
-	margin:0;
+	margin:60px 72px 60px 72px;
 }
 @media print {
 	html,body {
@@ -8,11 +8,35 @@
 		height: 297mm;
 	}
 }
-body {
+#name {
+	font-size:30px;
+	font-style:bold;
+	margin: 0px;
+	padding:0px; 
+	text-align:center;
 }
-#contact {
-	
+body {
+	font-family:Arial;
+	font-size: 1em;
+	margin:0px;
+}
+hr {
+	width:auto;
+	margin:0px;
+	height:1px;
+	background-color:black;
+	padding:0px; 
 }
 ul {
 	margin:0;
+}
+#contact {
+	margin:0;
+	text-align:center;
+}
+h3 {
+	text-align:center;
+}
+#projects {
+	margin-top:40px;
 }
