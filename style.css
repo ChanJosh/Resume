@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Verdana);
 @import url(https://fonts.googleapis.com/css?family=Georgia);
-@import url(https://fonts.googleapis.com/css?family=Courier);
+@import url(https://fonts.googleapis.com/css?family=Times+New+Roman);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
 @page {
 	size: A4;
-	margin:50px 72px 72px 72px;
+	margin:35px 72px 35px 72px;
 }
 @media print {
 	html,body {
@@ -12,7 +12,7 @@
 	}
 }
 body {
-	font-family:Arial,Georgia,Verdana,Courier;
+	font-family:"Times New Roman",Arial,Georgia;
 	font-size: 1em;
 	margin:0px;
 }
@@ -24,7 +24,11 @@ hr {
 	padding:0px; 
 }
 ul {
+	margin-top:0px;
 	margin-bottom:20px;
+}
+h2 {
+	font-family:"Georgia";
 }
 h3 {
 	text-align:center;
@@ -69,4 +73,7 @@ li {
 }
 #projects {
 	margin-top:30px;
+}
+#skills {
+	margin: 0px;
 }
